@@ -368,31 +368,36 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chcaldw\\.nuget\\packages\\": {}
+    "C:\\Users\\khollinger\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chcaldw\\Desktop\\Senior Software Engineer Interview\\wtw-interview-project-api\\wtw-interview-project-api.csproj",
+      "projectUniqueName": "C:\\Users\\khollinger\\source\\repos\\wtw-interview-project-api\\wtw-interview-project-api.csproj",
       "projectName": "wtw-interview-project-api",
-      "projectPath": "C:\\Users\\chcaldw\\Desktop\\Senior Software Engineer Interview\\wtw-interview-project-api\\wtw-interview-project-api.csproj",
-      "packagesPath": "C:\\Users\\chcaldw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chcaldw\\Desktop\\Senior Software Engineer Interview\\wtw-interview-project-api\\obj\\",
+      "projectPath": "C:\\Users\\khollinger\\source\\repos\\wtw-interview-project-api\\wtw-interview-project-api.csproj",
+      "packagesPath": "C:\\Users\\khollinger\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\khollinger\\source\\repos\\wtw-interview-project-api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\chcaldw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\khollinger\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\DefaultImport": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://artifacts.mktp.io/artifactory/api/nuget/nuget-all": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -404,6 +409,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Dapper": {
             "target": "Package",
@@ -432,7 +438,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

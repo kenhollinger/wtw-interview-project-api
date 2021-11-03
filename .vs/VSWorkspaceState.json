@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Database",
+    "\\Entities",
+    "\\obj",
+    "\\Properties",
+    "\\Repositories",
+    "\\Services"
+  ],
+  "SelectedNode": "\\wtw-interview-project-api.csproj",
+  "PreviewInSolutionExplorer": false
+}

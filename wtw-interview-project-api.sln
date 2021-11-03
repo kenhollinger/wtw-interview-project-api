@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wtw-interview-project-api", "wtw-interview-project-api.csproj", "{0ACACAB9-E92E-463D-9E43-D3BADEB467CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ACACAB9-E92E-463D-9E43-D3BADEB467CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ACACAB9-E92E-463D-9E43-D3BADEB467CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ACACAB9-E92E-463D-9E43-D3BADEB467CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACACAB9-E92E-463D-9E43-D3BADEB467CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD70C103-AE42-497C-8F0D-C387DC80E19F}
+	EndGlobalSection
+EndGlobal
