@@ -20,7 +20,16 @@ namespace wtw_interview_project_api.Controllers
             _agentService = agentService;
         }
 
-        [HttpGet]
-        public async Task<IEnumerable<Agent>> GetAll() => await _agentService.GetAllAsync();
+        [Route("/Ping"), HttpGet]
+        public string Ping() => "Pong";
+
+        [Route("/GetAllAgents"), HttpGet]
+        public async Task<IEnumerable<Agent>> GetAllAgents() => await _agentService.GetAllAgentsAsync();
+
+        [Route("/GetAgentDetail"), HttpGet]
+        public async Task<AgentDetail> GetAgentDetail(int agentId) => await _agentService.GetAgentDetailAsync(agentId);
+
+        [Route("/UpdateAgentDetail"), HttpPost]
+        public async Task<string> UpdateAgentDetail(AgentDetail agentDetail) => await _agentService.UpdateAgentDetailAsync(agentDetail);
     }
 }
